@@ -37,7 +37,7 @@ export const Projects = () => {
       title: "PORTFOILO",
       description: "REACT,ANIMATION",
       imgUrl: po,
-      url: "https://e-summit-iitbbs.com/",
+      url: "https://portfolio-ten-blue-46.vercel.app/",
     },
     {
       title: "Shoe Store",
