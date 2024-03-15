@@ -76,4 +76,8 @@ export const Contact = () => {
 
     </Row>
   </Container>
+<<<<<<< HEAD
 </section>
+=======
+</section>
+>>>>>>> c4900647b7060a21c94f7480616e8af9c1c92969
