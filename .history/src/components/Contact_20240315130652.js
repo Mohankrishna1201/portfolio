@@ -63,5 +63,21 @@ export const Contact = () => {
   )
 }
 
+<section className="contact" id="connect">
+  <Container>
+    <Row className="align-items-center">
+      <Col size={12} md={6}>
+        <TrackVisibility>
+          {({ isVisible }) =>
+            <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us" />
+          }
+        </TrackVisibility>
+      </Col>
 
-
+    </Row>
+  </Container>
+<<<<<<< HEAD
+</section>
+=======
+</section>
+>>>>>>> c4900647b7060a21c94f7480616e8af9c1c92969
