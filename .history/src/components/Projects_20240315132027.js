@@ -12,7 +12,6 @@ import Modulux from "../assets/img/modulux.png"
 import saas from "../assets/img/saas.jpeg"
 import es from "../assets/img/es.gif"
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import po from "../assets/img/PORTFOLIO.jpeg"
 import 'animate.css';
 import '../App.css'
 import TrackVisibility from 'react-on-screen';

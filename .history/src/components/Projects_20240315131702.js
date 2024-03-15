@@ -12,7 +12,6 @@ import Modulux from "../assets/img/modulux.png"
 import saas from "../assets/img/saas.jpeg"
 import es from "../assets/img/es.gif"
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import po from "../assets/img/PORTFOLIO.jpeg"
 import 'animate.css';
 import '../App.css'
 import TrackVisibility from 'react-on-screen';
@@ -31,12 +30,6 @@ export const Projects = () => {
       title: "ESUMMIT'24 IIT BHUBANESWAR",
       description: "HTML,CSS,JS,BOOTSTRAP,FIREBASE",
       imgUrl: es,
-      url: "https://e-summit-iitbbs.com/",
-    },
-    {
-      title: "PORTFOILO",
-      description: "REACT,ANIMATION",
-      imgUrl: po,
       url: "https://e-summit-iitbbs.com/",
     },
     {
