@@ -22,6 +22,7 @@ function App() {
         <TimeLine />
         <Projects />
       </div>
+
       <Contact />
 
     </div>

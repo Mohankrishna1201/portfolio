@@ -3,11 +3,10 @@ let timelineElements = [
         id: 1,
         title: "App and Web Developer",
         location: " Let's DriEV Bhubaneswar",
-        description:
-            "Made an bussiness chatbot using Dialogflow, Voiceflow and automated their bookings. Built an push Notification system using Firebase for their users and Optimized their current Angular website with firebase features, and updated Admin Dashboard for handling Users. Developed a React Native app.",
+        description: "Made an bussiness chatbot using Dialogflow, Voiceflow and automated their bookings. Built an push Notification system using Firebase for their users and Optimized their current Angular website with firebase features, and updated Admin Dashboard for handling Users. Developed a React Native app.",
         buttonText: "view Certificate",
         date: "May 2024 - August 2024",
-        stack: "Angular, Firebase, Cloud Messaging, GCP,React-Native, Typescript,Chatbot,Voiceflow,DialogFlow,Generative AI",
+        stack: "Angular, Firebase, GCP,React-Native, Typescript,Chatbot,Voiceflow,DialogFlow,Generative AI",
         icon: "work",
         link: "https://drive.google.com/file/d/1WLk_tZLmiwG238-HjSsr1M8EhEG9ctZQ/view?usp=sharing"
     },

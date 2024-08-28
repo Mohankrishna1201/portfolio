@@ -43,7 +43,8 @@ function TimeLine() {
                             </h7>
 
                             <p id="description">{element.description}</p>
-                            <p id="description"> <span className="tech">Tech Stack :</span> <br></br> {element.stack}</p>
+                            <p id="description1"> <span className="tech">Tech Stack :</span> <br></br> {element.stack}</p>
+
                             {showButton && (
                                 <a
                                     className={`button ${isWorkIcon ? "workButton" : "schoolButton"
