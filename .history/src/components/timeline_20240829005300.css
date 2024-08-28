@@ -1,0 +1,99 @@
+.title {
+  font-size: 15em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.exp {
+ 
+  background-size: cover;
+}
+
+.cardExp {
+  background: #151515;
+}
+.vertical-timeline-element-icon{
+    -webkit-box-shadow: 0 0 0 4px #000, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05)!important;
+}
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+  background-color: #151515 !important;
+}
+
+/* Line Color */
+.vertical-timeline::before {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%) !important;
+}
+
+.vertical-timeline-element-icon {
+    position: relative;
+}
+.tech{
+    color :#AA367C!important;
+}
+.head23{
+    text-align: center;
+margin-bottom: 40px;
+}
+.vertical-timeline-element-icon::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    z-index: -1; /* Place the gradient behind the element */
+    border-radius: 50%; /* Assuming your icon is circular */
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
+}
+
+.vertical-timeline-element-content::before {
+    content: none;
+    display: none;
+}
+
+.date {
+  color: #ffffff!important;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white!important;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: linear-gradient(90.21deg, #4A2FBD -5.91%, #AA367C 111.58%);
+}
+
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}

@@ -1,0 +1,72 @@
+/* timeline.css */
+
+/* Customize the background color of the timeline content box */
+.vertical-timeline-element-content {
+    background-color: #151515 !important;  /* Main content box background color */
+    color: #ffffff !important; /* Main text color */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); /* Optional: Box shadow for depth */
+}
+
+/* Customize the color of the vertical timeline line */
+.vertical-timeline::before {
+    background-color: #ff6347; /* Line color (example: Tomato) */
+}
+
+/* Customize the triangle color at the top of the content box */
+.vertical-timeline-element-content::before {
+    border-right-color: #151515 !important; /* Triangle border color to match box */
+}
+
+/* Customize the icon color and background */
+.vertical-timeline-element-icon {
+    background-color: #06D6A0 !important; /* Background color of the icon */
+    color: #151515 !important; /* Icon color */
+    box-shadow: 0 0 0 4px #ff6347; /* Optional: Outer shadow/ring around the icon */
+}
+
+/* Customize the date text color */
+.date {
+    color: #ff6347 !important; /* Date text color */
+    font-weight: bold; /* Optional: Make the date text bold */
+}
+.vertical-timeline-element-content-arrow{
+    background-color: #151515 !important;
+}
+
+/* Customize the button styles */
+.button {
+    background-color: #444; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Differentiate buttons based on work or school icon */
+.workButton {
+    background-color: #06D6A0; /* Work button specific color */
+}
+
+.schoolButton {
+    background-color: #f9c74f; /* School button specific color */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #333; /* Darker shade on hover */
+}
+
+/* Customize any additional text styles as needed */
+h3.vertical-timeline-element-title {
+    color: #ff6347; /* Title text color */
+}
+
+h5.vertical-timeline-element-subtitle {
+    color: #bbbbbb; /* Subtitle text color */
+}
+
+p#description {
+    color: #cccccc; /* Description text color */
+}
