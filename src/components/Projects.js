@@ -4,7 +4,7 @@ import projImg1 from "../assets/img/code.png";
 import deliFresh from "../assets/img/Delifresh.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-
+import projImg4 from "../assets/img/zocket.png";
 import razorpayclone from "../assets/img/razorpay.jpeg"
 import shoestore from "../assets/img/shoestore.png"
 import moviesearch from "../assets/img/movisearch.png"
@@ -57,6 +57,12 @@ export const Projects = () => {
       description: "HTML,CSS,JS,TAILWIND CSS",
       imgUrl: razorpayclone,
       url: "https://finalrazorpayclone.vercel.app/",
+    },
+      {
+      title: "Poster Maker",
+      description: "React",
+      imgUrl: projImg4,
+      url: "https://zocket-sage.vercel.app/",
     },
 
   ];
