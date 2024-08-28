@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/oc.png";
 import deliFresh from "../assets/img/Delifresh.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+
 import razorpayclone from "../assets/img/razorpay.jpeg"
 import shoestore from "../assets/img/shoestore.png"
 import moviesearch from "../assets/img/movisearch.png"
@@ -22,10 +23,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Online Compiler",
-      description: "MERN STACK",
+      title: "Code4fun",
+      description: "MERN STACK, Firebase",
       imgUrl: projImg1,
-      url: "https://github.com/Mohankrishna1201/oc",
+      url: "https://code4fun-five.vercel.app/",
     },
     {
       title: "ESUMMIT'24 IIT BHUBANESWAR",
