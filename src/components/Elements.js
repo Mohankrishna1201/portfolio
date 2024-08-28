@@ -25,7 +25,7 @@ let timelineElements = [
     {
         id: 3,
         title: "Fullstack Developer",
-        location: "Remote",
+        location: "IEEE Bombay, Remote",
         description:
             "Built HireLogix. HireLogix is a fantastic platform for recruiters to post jobs and hire candidates directly.For job seekers, it offers a convenient way to find employment opportunities",
         buttonText: "view Certificate",
