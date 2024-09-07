@@ -72,7 +72,7 @@ export const Projects = () => {
       title: "MovieSearch",
       description: "HTML,CSS,JS,API",
       imgUrl: moviesearch,
-      url: "https://mohankrishna1201.github.io/moviesearch/",
+      url: "https://moviesearch-sepia.vercel.app/",
     },
     {
       title: "Razorpay Clone",
