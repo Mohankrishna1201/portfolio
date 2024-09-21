@@ -18,6 +18,7 @@ import saas from "../assets/img/saas.jpeg"
 import es from "../assets/img/es.gif"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import po from "../assets/img/PORTFOLIO.jpeg"
+import ch from "../assets/img/ch.png"
 import 'animate.css';
 import '../App.css'
 import TrackVisibility from 'react-on-screen';
@@ -31,6 +32,12 @@ export const Projects = () => {
       description: "MERN STACK, Firebase",
       imgUrl: projImg1,
       url: "https://code4fun-five.vercel.app/",
+    },
+     {
+      title: "Chat Care",
+      description: "MERN,Stream,Firebase ",
+      imgUrl: ch,
+      url: "https://chat4fun.kattamuri.me/",
     },
     {
       title: "ESUMMIT'24 IIT BHUBANESWAR",
