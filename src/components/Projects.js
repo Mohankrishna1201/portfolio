@@ -18,7 +18,8 @@ import saas from "../assets/img/saas.jpeg"
 import es from "../assets/img/es.gif"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import po from "../assets/img/PORTFOLIO.jpeg"
-import ch from "../assets/img/ch.png"
+import ch from "../assets/img/ch.png";
+import gem from "../assets/img/gemini.png";
 import 'animate.css';
 import '../App.css'
 import TrackVisibility from 'react-on-screen';
@@ -46,16 +47,16 @@ export const Projects = () => {
       url: "https://e-summit-iitbbs.com/",
     },
     {
+      title: "Gemini by Mohan",
+      description: "Generative AI, Gemini, MERN,SurveyJs",
+      imgUrl: gem,
+      url: "https://geminibymohan.vercel.app/",
+    },
+    {
       title: "Employee Dashboard",
       description: "MERN Stack",
       imgUrl: dash,
       url: "https://finaldashboard-nine.vercel.app/",
-    },
-    {
-      title: "Data Query Bot",
-      description: "Node,Express,Generative AI, MongoDB",
-      imgUrl: bot,
-      url: "https://gemini-trail.vercel.app/",
     },
     {
       title: "Poster Maker",
